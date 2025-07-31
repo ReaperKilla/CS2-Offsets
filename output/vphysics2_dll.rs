@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 00:44:07.732643500 UTC
+// 2025-07-31 03:00:07.385734600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -56,7 +56,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnHullDesc_t {
-                pub const m_Hull: usize = 0x18; // 
+                pub const m_Hull: usize = 0x18; // RnHull_t
             }
             // Parent: None
             // Field count: 1
@@ -703,7 +703,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FeSimdQuad_t {
-                pub const nNode: usize = 0x0; // uint16[4][4]
+                pub const nNode: usize = 0x0; // 
                 pub const f4Slack: usize = 0x20; // fltx4
                 pub const vShape: usize = 0x30; // 
                 pub const f4Weights: usize = 0xF0; // 
@@ -742,7 +742,7 @@ pub mod cs2_dumper {
             pub mod FeQuad_t {
                 pub const nNode: usize = 0x0; // uint16[4]
                 pub const flSlack: usize = 0x8; // float32
-                pub const vShape: usize = 0xC; // Vector4D[4]
+                pub const vShape: usize = 0xC; // 
             }
             // Parent: None
             // Field count: 6
@@ -850,7 +850,7 @@ pub mod cs2_dumper {
             pub mod FeCollisionPlane_t {
                 pub const nCtrlParent: usize = 0x0; // uint16
                 pub const nChildNode: usize = 0x2; // uint16
-                pub const m_Plane: usize = 0x4; // 
+                pub const m_Plane: usize = 0x4; // RnPlane_t
                 pub const flStrength: usize = 0x14; // float32
             }
             // Parent: None
@@ -972,7 +972,7 @@ pub mod cs2_dumper {
                 pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
                 pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
                 pub const m_nFlags: usize = 0xE8; // uint32
-                pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*
+                pub const m_pRegionSVM: usize = 0xF0; // 
             }
             // Parent: None
             // Field count: 2

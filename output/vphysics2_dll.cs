@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 00:44:07.732643500 UTC
+// 2025-07-31 03:00:07.385734600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -50,7 +50,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class RnHullDesc_t {
-            public const nint m_Hull = 0x18; // 
+            public const nint m_Hull = 0x18; // RnHull_t
         }
         // Parent: None
         // Field count: 1
@@ -697,7 +697,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FeSimdQuad_t {
-            public const nint nNode = 0x0; // uint16[4][4]
+            public const nint nNode = 0x0; // 
             public const nint f4Slack = 0x20; // fltx4
             public const nint vShape = 0x30; // 
             public const nint f4Weights = 0xF0; // 
@@ -736,7 +736,7 @@ namespace CS2Dumper.Schemas {
         public static class FeQuad_t {
             public const nint nNode = 0x0; // uint16[4]
             public const nint flSlack = 0x8; // float32
-            public const nint vShape = 0xC; // Vector4D[4]
+            public const nint vShape = 0xC; // 
         }
         // Parent: None
         // Field count: 6
@@ -844,7 +844,7 @@ namespace CS2Dumper.Schemas {
         public static class FeCollisionPlane_t {
             public const nint nCtrlParent = 0x0; // uint16
             public const nint nChildNode = 0x2; // uint16
-            public const nint m_Plane = 0x4; // 
+            public const nint m_Plane = 0x4; // RnPlane_t
             public const nint flStrength = 0x14; // float32
         }
         // Parent: None
@@ -966,7 +966,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
             public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
             public const nint m_nFlags = 0xE8; // uint32
-            public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
+            public const nint m_pRegionSVM = 0xF0; // 
         }
         // Parent: None
         // Field count: 2

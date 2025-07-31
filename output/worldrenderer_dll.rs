@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 00:44:07.732643500 UTC
+// 2025-07-31 03:00:07.385734600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -65,7 +65,7 @@ pub mod cs2_dumper {
                 pub const m_nCubeMapPrecomputedHandshake: usize = 0x6C; // int32
                 pub const m_nLightProbeVolumePrecomputedHandshake: usize = 0x70; // int32
                 pub const m_renderableModel: usize = 0x78; // CStrongHandle<InfoForResourceTypeCModel>
-                pub const m_renderable: usize = 0x80; // 
+                pub const m_renderable: usize = 0x80; // CStrongHandle<InfoForResourceTypeCRenderMesh>
             }
             // Parent: None
             // Field count: 3
