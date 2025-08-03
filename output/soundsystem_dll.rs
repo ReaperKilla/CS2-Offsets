@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 03:00:07.385734600 UTC
+// 2025-08-03 19:25:28.740496300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -753,7 +753,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod VMixEQ8Desc_t {
-                pub const m_stages: usize = 0x0; // VMixFilterDesc_t[8]
+                pub const m_stages: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 3

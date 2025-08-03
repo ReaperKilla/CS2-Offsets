@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 03:00:07.385734600 UTC
+// 2025-08-03 19:25:28.740496300 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -384,7 +384,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bPushTowardsInfoTarget = 0x103C; // bool
             public const nint m_bPushAwayFromInfoTarget = 0x103D; // bool
             public const nint m_qNoiseDelta = 0x1040; // Quaternion
-            public const nint m_hInfoFan = 0x1050; // 
+            public const nint m_hInfoFan = 0x1050; // CHandle<CInfoFan>
             public const nint m_flForce = 0x1054; // float32
             public const nint m_bFalloff = 0x1058; // bool
             public const nint m_RampTimer = 0x1060; // CountdownTimer
@@ -903,7 +903,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
         public static class C_BreakableProp {
-            public const nint m_CPropDataComponent = 0x11A0; // CPropDataComponent
+            public const nint m_CPropDataComponent = 0x11A0; // 
             public const nint m_OnStartDeath = 0x11E0; // CEntityIOOutput
             public const nint m_OnBreak = 0x1208; // CEntityIOOutput
             public const nint m_OnHealthChanged = 0x1230; // CEntityOutputTemplate<float32>
@@ -2021,7 +2021,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nBucketCount = 0x210; // int32
             public const nint m_flInterval = 0x214; // float32
             public const nint m_flFinalValue = 0x218; // float32
-            public const nint m_nCompressionType = 0x21C; // TimelineCompression_t
+            public const nint m_nCompressionType = 0x21C; // 
             public const nint m_bStopped = 0x220; // bool
         }
         // Parent: None
@@ -2505,7 +2505,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flViewmodelOffsetY = 0x25D8; // float32
             public const nint m_flViewmodelOffsetZ = 0x25DC; // float32
             public const nint m_flViewmodelFOV = 0x25E0; // float32
-            public const nint m_vecPlayerPatchEconIndices = 0x25E4; // uint32[5]
+            public const nint m_vecPlayerPatchEconIndices = 0x25E4; // 
             public const nint m_GunGameImmunityColor = 0x2618; // Color
             public const nint m_vecBulletHitModels = 0x2668; // CUtlVector<C_BulletHitModel*>
             public const nint m_bIsWalking = 0x2680; // bool
@@ -2544,7 +2544,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_angStashedShootAngles = 0x2914; // QAngle
             public const nint m_vecStashedGrenadeThrowPosition = 0x2920; // Vector
             public const nint m_vecStashedVelocity = 0x292C; // Vector
-            public const nint m_angShootAngleHistory = 0x2938; // QAngle[2]
+            public const nint m_angShootAngleHistory = 0x2938; // 
             public const nint m_vecThrowPositionHistory = 0x2950; // Vector[2]
             public const nint m_vecVelocityHistory = 0x2968; // Vector[2]
             public const nint m_PredictedDamageTags = 0x2980; // C_UtlVectorEmbeddedNetworkVar<PredictedDamageTag_t>
@@ -2840,7 +2840,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_nClipmapLevels (int)
         // NetworkVarNames: m_bIsMaster (bool)
         public static class C_EnvWindController {
-            public const nint m_EnvWindShared = 0x5F8; // C_EnvWindShared
+            public const nint m_EnvWindShared = 0x5F8; // 
             public const nint m_fDirectionVariation = 0x788; // float32
             public const nint m_fSpeedVariation = 0x78C; // float32
             public const nint m_fTurbulence = 0x790; // float32
@@ -2988,7 +2988,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vWindDir = 0x11E0; // Vector
             public const nint m_vColorMod = 0x11EC; // Vector
             public const nint m_vCachedEndPointAttachmentPos = 0x11F8; // Vector[2]
-            public const nint m_vCachedEndPointAttachmentAngle = 0x1210; // QAngle[2]
+            public const nint m_vCachedEndPointAttachmentAngle = 0x1210; // 
             public const nint m_bConstrainBetweenEndpoints = 0x1228; // bool
             public const nint m_bEndPointAttachmentPositionsDirty = 0x0; // bitfield:1
             public const nint m_bEndPointAttachmentAnglesDirty = 0x0; // bitfield:1
@@ -3010,7 +3010,7 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 1
         public static class C_RopeKeyframe__CPhysicsDelegate {
-            public const nint m_pKeyframe = 0x8; // 
+            public const nint m_pKeyframe = 0x8; // C_RopeKeyframe*
         }
         // Parent: C_PointEntity
         // Field count: 5
@@ -3376,11 +3376,11 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_nBloodType (BloodType)
         public static class C_BaseEntity {
             public const nint m_CBodyComponent = 0x38; // CBodyComponent*
-            public const nint m_NetworkTransmitComponent = 0x40; // CNetworkTransmitComponent
+            public const nint m_NetworkTransmitComponent = 0x40; // 
             public const nint m_nLastThinkTick = 0x328; // GameTick_t
             public const nint m_pGameSceneNode = 0x330; // CGameSceneNode*
             public const nint m_pRenderComponent = 0x338; // CRenderComponent*
-            public const nint m_pCollision = 0x340; // CCollisionProperty*
+            public const nint m_pCollision = 0x340; // 
             public const nint m_iMaxHealth = 0x348; // int32
             public const nint m_iHealth = 0x34C; // int32
             public const nint m_lifeState = 0x350; // uint8
@@ -3401,7 +3401,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nSubclassID = 0x380; // CUtlStringToken
             public const nint m_nSimulationTick = 0x390; // int32
             public const nint m_iCurrentThinkContext = 0x394; // int32
-            public const nint m_aThinkFunctions = 0x398; // CUtlVector<thinkfunc_t>
+            public const nint m_aThinkFunctions = 0x398; // 
             public const nint m_bDisabledContextThinks = 0x3B0; // bool
             public const nint m_flAnimTime = 0x3B4; // float32
             public const nint m_flSimulationTime = 0x3B8; // float32
@@ -3859,7 +3859,7 @@ namespace CS2Dumper.Schemas {
         // MPropertySuppressBaseClassField
         public static class CCSWeaponBaseVData {
             public const nint m_WeaponType = 0x438; // CSWeaponType
-            public const nint m_WeaponCategory = 0x43C; // 
+            public const nint m_WeaponCategory = 0x43C; // CSWeaponCategory
             public const nint m_szModel_AG2 = 0x440; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_szAnimSkeleton = 0x520; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCNmSkeleton>>
             public const nint m_vecMuzzlePos0 = 0x600; // Vector
@@ -3953,7 +3953,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hOuter = 0x24; // CHandle<C_BaseEntity>
             public const nint m_bPreventLoopback = 0x28; // bool
             public const nint m_ProviderType = 0x2C; // attributeprovidertypes_t
-            public const nint m_CachedResults = 0x30; // 
+            public const nint m_CachedResults = 0x30; // CUtlVector<CAttributeManager::cached_attribute_float_t>
         }
         // Parent: None
         // Field count: 0
@@ -4525,7 +4525,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_EnvWindShared (CEnvWindShared)
         public static class C_EnvWindClientside {
-            public const nint m_EnvWindShared = 0x5F8; // C_EnvWindShared
+            public const nint m_EnvWindShared = 0x5F8; // 
         }
         // Parent: None
         // Field count: 1
@@ -4537,7 +4537,7 @@ namespace CS2Dumper.Schemas {
         // MPulseLibraryBindings
         // MPulseDomainOptInFeatureTag
         public static class CCSPointScript {
-            public const nint m_pParent = 0x110; // 
+            public const nint m_pParent = 0x110; // CCSPointScriptEntity*
         }
         // Parent: None
         // Field count: 6
@@ -4571,7 +4571,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_EnvWindShared (CEnvWindShared)
         public static class C_EnvWind {
-            public const nint m_EnvWindShared = 0x5F8; // C_EnvWindShared
+            public const nint m_EnvWindShared = 0x5F8; // 
         }
         // Parent: C_CSGO_TeamPreviewCamera
         // Field count: 0
@@ -4770,7 +4770,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulseCell_LerpCameraSettings__CursorState_t {
-            public const nint m_hCamera = 0x8; // CHandle<C_PointCamera>
+            public const nint m_hCamera = 0x8; // 
             public const nint m_OverlaidStart = 0xC; // PointCameraSettings_t
             public const nint m_OverlaidEnd = 0x1C; // PointCameraSettings_t
         }
@@ -5229,7 +5229,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_OnNotTouching = 0xFB0; // CEntityIOOutput
             public const nint m_hTouchingEntities = 0xFD8; // CUtlVector<CHandle<C_BaseEntity>>
             public const nint m_iFilterName = 0xFF0; // CUtlSymbolLarge
-            public const nint m_hFilter = 0xFF8; // 
+            public const nint m_hFilter = 0xFF8; // CHandle<CBaseFilter>
             public const nint m_bDisabled = 0xFFC; // bool
         }
         // Parent: CBaseFilter
@@ -6943,7 +6943,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_CLightComponent (CLightComponent::Storage_t)
         public static class C_LightEntity {
-            public const nint m_CLightComponent = 0xEC0; // 
+            public const nint m_CLightComponent = 0xEC0; // CLightComponent*
         }
         // Parent: C_CSWeaponBaseGun
         // Field count: 0
@@ -7229,7 +7229,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_weaponPurchases (WeaponPurchaseCount_t)
         public static class WeaponPurchaseTracker_t {
-            public const nint m_weaponPurchases = 0x8; // C_UtlVectorEmbeddedNetworkVar<WeaponPurchaseCount_t>
+            public const nint m_weaponPurchases = 0x8; // 
         }
         // Parent: None
         // Field count: 3

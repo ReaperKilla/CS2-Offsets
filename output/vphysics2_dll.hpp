@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-31 03:00:07.385734600 UTC
+// 2025-08-03 19:25:28.740496300 UTC
 
 #pragma once
 
@@ -55,7 +55,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace RnHullDesc_t {
-                constexpr std::ptrdiff_t m_Hull = 0x18; // RnHull_t
+                constexpr std::ptrdiff_t m_Hull = 0x18; // 
             }
             // Parent: None
             // Field count: 1
@@ -702,7 +702,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace FeSimdQuad_t {
-                constexpr std::ptrdiff_t nNode = 0x0; // 
+                constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][4]
                 constexpr std::ptrdiff_t f4Slack = 0x20; // fltx4
                 constexpr std::ptrdiff_t vShape = 0x30; // 
                 constexpr std::ptrdiff_t f4Weights = 0xF0; // 
@@ -741,7 +741,7 @@ namespace cs2_dumper {
             namespace FeQuad_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4]
                 constexpr std::ptrdiff_t flSlack = 0x8; // float32
-                constexpr std::ptrdiff_t vShape = 0xC; // 
+                constexpr std::ptrdiff_t vShape = 0xC; // Vector4D[4]
             }
             // Parent: None
             // Field count: 6
@@ -849,7 +849,7 @@ namespace cs2_dumper {
             namespace FeCollisionPlane_t {
                 constexpr std::ptrdiff_t nCtrlParent = 0x0; // uint16
                 constexpr std::ptrdiff_t nChildNode = 0x2; // uint16
-                constexpr std::ptrdiff_t m_Plane = 0x4; // RnPlane_t
+                constexpr std::ptrdiff_t m_Plane = 0x4; // 
                 constexpr std::ptrdiff_t flStrength = 0x14; // float32
             }
             // Parent: None
@@ -971,7 +971,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Faces = 0xB8; // CUtlVector<RnFace_t>
                 constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
-                constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // 
+                constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }
             // Parent: None
             // Field count: 2
